@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vrimg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.sourceforge.simcpux.showvrimage.VRImgActivity">
+    <!--显示VR图片-->
+    <com.google.vr.sdk.widgets.pano.VrPanoramaView
+        android:id="@+id/pano_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:layout_margin="5dip"
+        android:scrollbars="@null" />
+</RelativeLayout>
